@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Form</title>
+<style>
+  body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: Verdana, sans-serif;
+    background:#f0f0f5;
+  }
+  .box{
+    background:#fff;
+    padding:35px 45px;
+    border-radius:8px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+    text-align:center;
+  }
+  label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#333;
+  }
+  input{
+    padding:9px;
+    width:200px;
+    border:1px solid #bbb;
+    border-radius:4px;
+    margin-bottom:18px;
+  }
+  button{
+    background:#4361ee;
+    color:#fff;
+    border:none;
+    padding:9px 22px;
+    border-radius:4px;
+    cursor:pointer;
+  }
+  button:hover{
+    background:#3046b8;
+  }
+</style>
+</head>
+<body>
+
+  <div class="box">
+    <form>
+      <label for="nm">Enter your name</label>
+      <input type="text" id="nm" placeholder="Type here" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
