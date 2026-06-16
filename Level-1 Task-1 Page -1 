@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My First Webpage</title>
+<style>
+  body{
+    margin:0;
+    font-family: Verdana, sans-serif;
+    background:#fdfdfd;
+    text-align:center;
+    padding:50px 20px;
+  }
+  h1{
+    color:#1a1a2e;
+    font-size:30px;
+  }
+  p{
+    color:#444;
+    font-size:16px;
+    max-width:500px;
+    margin:15px auto 25px auto;
+    line-height:1.5;
+  }
+  .pic{
+    border:4px solid #1a1a2e;
+    border-radius:8px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Welcome to My Webpage</h1>
+  <p>This page was made using basic HTML and CSS to practice page layout, text formatting and adding an image.</p>
+
+  <svg class="pic" width="280" height="180" xmlns="http://www.w3.org/2000/svg">
+    <rect width="280" height="180" fill="#a3d2ff"/>
+    <circle cx="220" cy="40" r="20" fill="#ffe066"/>
+    <polygon points="0,180 70,90 140,180" fill="#3a7d44"/>
+    <polygon points="90,180 160,70 240,180" fill="#2e5e34"/>
+  </svg>
+
+</body>
+</html>
