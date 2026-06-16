@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nav Menu</title>
+<style>
+  body{
+    margin:0;
+    font-family: Verdana, sans-serif;
+  }
+  .menu{
+    background:#1a1a2e;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:16px 0;
+  }
+  .menu a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+  }
+  .menu a:hover{
+    color:#a3d2ff;
+  }
+  .body-content{
+    text-align:center;
+    margin-top:60px;
+    color:#333;
+  }
+</style>
+</head>
+<body>
+
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="body-content">
+    <h2>Navigation Menu Example</h2>
+    <p>A simple 3-link nav bar built with HTML and CSS.</p>
+  </div>
+
+</body>
+</html>
